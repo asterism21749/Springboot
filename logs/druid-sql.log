@@ -1,0 +1,6 @@
+[2019-01-06 17:51:35] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT * FROM MY_USER
+[2019-01-06 17:51:35] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2019-01-06 17:51:35] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2019-01-06 17:51:35] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 170.438997 millis. SELECT * FROM MY_USER
+[2019-01-06 17:51:35] DEBUG 137 statementLog - {conn-10001, pstmt-20000} clearParameters. 
+[2019-01-06 17:52:52] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
