@@ -1,9 +1,12 @@
 spring:
+  config:
+    name: application
   profiles:
     include: database,server,security
   devtools:
     livereload:
       enabled: true
+      port: 35792
     restart:
       enabled: true
       additional-paths: src/main/java

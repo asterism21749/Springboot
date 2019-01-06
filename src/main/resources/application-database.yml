@@ -2,6 +2,7 @@ spring:
   datasource:
     # 配置druid数据库连接池
     druid:
+      #      加密命令java -cp druid-1.1.10.jar com.alibaba.druid.filter.config.ConfigTools your_password
       # 设置密码解码，config.decrypt.key为publicKey
       connection-properties: config.decrypt=true;config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIjmMcbpxf5kf4+WEaIZUZ63YquYmu1Bj6QDuc0S6eH6x+7DozkLEWZHySRpSok0iB1fIvRKfHavehDhMNsDpGECAwEAAQ==
       # JDBC配置
